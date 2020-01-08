@@ -9,7 +9,7 @@ This project consists of two main parts: the API backend implementation and a we
 The API backend is implemented with [Django REST framework](https://www.django-rest-framework.org/).
 
 A demo instance with a browsable API interface can be found in https://mappoints-api.herokuapp.com.
-Please note that the API uses a free Heroku dyno that will sleep after 30 minutes of inactivity and can make the first client requests seem very slow.
+Please note the API uses a free Heroku dyno that will sleep after 30 minutes of inactivity so initial request(s) may take a while.
 
 The API documentation can be found in https://mappoints.docs.apiary.io/.
 
@@ -21,11 +21,11 @@ Dependencies:
 - Django CORS Headers
 - Django REST Framework JWT
 - Furl
-- for full list see api/requirements.txt
+- for full list, see api/requirements.txt
 
 
 ### Databases
-The default database used is SQLite 3.
+The default database is SQLite 3.
 It is possible to use PostgreSQL 9.6+ as well (used in the Heroku demo instance).
 
 NOTE: if you want to test/deploy with Postgres,
@@ -39,7 +39,7 @@ Prerequisites:
 - PostgreSQL 9.6 (optional)
 ```
 # 1. Clone the repository
-git clone https://gitlab.com/jnnl/pwp-mappoints
+git clone https://github.com/jnnl/mappoints
 
 # 2. Create a virtualenv (Python 3)
 cd api
@@ -49,7 +49,7 @@ source venv/bin/activate
 # 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Run migrations
+# 4. Run migrations (if any)
 python manage.py migrate
 
 # 5. Start the development server
@@ -58,7 +58,7 @@ python manage.py runserver
 
 ### Testing
 Prerequisites:
-- Complete above installation steps (up to step 4)
+- Complete above installation steps up to step 4
 ```
 # Collect static resources
 
