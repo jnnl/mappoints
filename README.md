@@ -4,6 +4,8 @@ MapPoints is a simple API that allows users to create, share and discuss geograp
 
 This project consists of two main parts: the API backend implementation and a web client.
 
+_DISCLAIMER: this is an old unmaintained course project work on REST and shouldn't be used for anything serious._
+
 ## API
 
 The API backend is implemented with [Django REST framework](https://www.django-rest-framework.org/).
