@@ -1,10 +1,13 @@
 # MapPoints
 
+![api](https://github.com/jnnl/mappoints/workflows/api/badge.svg)
+![client](https://github.com/jnnl/mappoints/workflows/client/badge.svg)
+
 MapPoints is a simple API that allows users to create, share and discuss geographic locations (points).
 
-This project consists of two main parts: the API backend implementation and a web client.
+This project consists of two main parts: the API backend implementation and a web client demo.
 
-_DISCLAIMER: this is an old unmaintained course project work on REST and shouldn't be used for anything serious._
+_DISCLAIMER: this is an old, unsupported REST course project and shouldn't be used for anything serious._
 
 ## API
 
